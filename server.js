@@ -49,7 +49,7 @@ app.get("/news", async (req, res) => {
     }
     res.send(data);
 
-});
+}); 
 
 
 // POST sends email from React Social Media app through SendGrid API 
