@@ -35,7 +35,7 @@ app.get("/users", (req, res) => {
 app.get("/news", async (req, res) => {
     let data;
     try{
-        await axios.get(`https://api.nytimes.com/svc/news/v3/content/nyt/all.json?api-key=${process.env.NY_TIMES_API_KEY}`)
+        await axios.get(`https://api.nytimes.com/svc/news/v3/content/nyt/all.json?api-key=l0pE8ZYsNeEx6MAKnAyKmNnxJrOhAfCB`)
             .then((res) => {
                 //console.log("res =>", res.data.results[0]);
                 data = res.data;
