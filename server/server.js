@@ -25,7 +25,7 @@ app.get("/users", (req, res) => {
     const users = [
         { name: "user 1", email: "steve1@apple.com"},
         { name: "user 2", email: "steve2@apple.com"},
-        { name: "user 3", email: "steve3@apple.com"}
+        { name: "user 3", email: "steve3@apple.com"} 
     ];
     res.send(users);
 });
