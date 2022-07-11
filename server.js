@@ -3,7 +3,7 @@ const cors = require('cors');
 const express = require('express');
 const bodyParser = require('body-parser');
 const axios = require("axios");
-const port = 5000; 
+const port = process.env.PORT || 5000; 
 const app = express(); 
 
 app.use(bodyParser.urlencoded({ extended: true }));
